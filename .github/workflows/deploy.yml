@@ -24,4 +24,4 @@ jobs:
       run: doctl kubernetes cluster kubeconfig save main
     
     - name: Apply K8s config files
-      run: kubectl apply -f k8s
+      run: kubectl apply -f k8s && kubectl apply -f k8s-prod
