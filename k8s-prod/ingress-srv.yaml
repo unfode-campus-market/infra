@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   rules:
-  - host: campus-market.dev
+  - host: www.refactorworks.com
     http:
       paths:
       - path: /api/payments/?(.*)
